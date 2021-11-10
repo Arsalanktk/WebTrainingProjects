@@ -28,6 +28,7 @@ body {
 	line-height: 1;
 }
 .navbar{
+	text-align: center;
     width: 85%;
     margin-left: 33%;
     padding: 35px 0;
@@ -36,12 +37,14 @@ body {
     justify-content: space-between;
 }
 .navbar ul li{
+	text-align: center;
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
 .navbar ul li a{
+	text-align: center;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -2734,7 +2737,7 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("./images/top-3200.svg"), url("./images/overlay.png"), url("./images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
 		background-size: 3200px 460px,					auto,					cover;
@@ -2745,7 +2748,7 @@ input, select, textarea {
 	}
 
 		#header:before, #header:after {
-			background: rgba(224, 224, 224, 0.75);
+			/* background: rgba(224, 224, 224, 0.75); */
 			content: '';
 			left: 50%;
 			position: absolute;
@@ -2753,16 +2756,16 @@ input, select, textarea {
 			z-index: 0;
 		}
 
-		/* #header:before {
+		#header:before {
 			height: calc(100% - 50px);
 			opacity: 0.15;
 			top: 0;
-		} */
+		}
 
-		/* #header:after {
+		#header:after {
 			bottom: 0;
 			height: 50px;
-		} */
+		}
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.35);
@@ -3050,18 +3053,18 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("./images/top-1600.svg"), url("./images/overlay.png"), url("./images/header.jpg");
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
 			}
 
-				/* #header:before {
+				#header:before {
 					height: calc(100% - 25px);
-				} */
+				}
 
-				/* #header:after {
+				#header:after {
 					height: 25px;
-				} */
+				}
 
 				#header h1 {
 					font-size: 2em;
@@ -3202,7 +3205,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+				background-image: url("./images/top-1280.svg"), url("./images/overlay.png"), url("./images/header.jpg");
 				background-size: 1280px 184px,						auto,							cover;
 				padding: 3em 0 7em 0;
 			}
