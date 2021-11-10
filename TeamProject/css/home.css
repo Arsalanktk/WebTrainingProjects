@@ -2753,16 +2753,16 @@ input, select, textarea {
 			z-index: 0;
 		}
 
-		#header:before {
+		/* #header:before {
 			height: calc(100% - 50px);
 			opacity: 0.15;
 			top: 0;
-		}
+		} */
 
-		#header:after {
+		/* #header:after {
 			bottom: 0;
 			height: 50px;
-		}
+		} */
 
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.35);
@@ -3055,13 +3055,13 @@ input, select, textarea {
 				padding: 6em 0 12em 0;
 			}
 
-				#header:before {
+				/* #header:before {
 					height: calc(100% - 25px);
-				}
+				} */
 
-				#header:after {
+				/* #header:after {
 					height: 25px;
-				}
+				} */
 
 				#header h1 {
 					font-size: 2em;
